@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DeepClone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Deep<span>Clone</span></div>
+    <nav>
+      <a href="#">Studio</a>
+      <a href="#">Gallery</a>
+      <a href="#">Docs</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Face &amp; Voice Studio</h1>
+    <p class="subtitle">Upload a source and a target to get started.</p>
+
+    <div class="panels">
+      <div class="panel">
+        <h2>Source</h2>
+        <div class="dropzone">Drop image here</div>
+      </div>
+      <div class="panel">
+        <h2>Target</h2>
+        <div class="dropzone">Drop video here</div>
+      </div>
+    </div>
+
+    <div class="options">
+      <label>Quality
+        <select><option>Standard</option><option>High</option></select>
+      </label>
+      <label><input type="checkbox"> Enhance face</label>
+      <label><input type="checkbox"> Clone voice</label>
+    </div>
+
+    <button disabled>Generate</button>
+    <p class="note">Demo UI only. No processing is available.</p>
+  </main>
+</body>
+</html>
