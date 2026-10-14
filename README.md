@@ -1,6 +1,6 @@
 # DeepClone
 
-Web studio UI for DeepClone.
+Demo Studio for Live Deep Fakes.
 
 ## Run
 
