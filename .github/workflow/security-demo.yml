@@ -1,0 +1,13 @@
+name: Security Awareness Demo
+
+on:
+  workflow_dispatch:
+
+jobs:
+  security-demo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Demonstrate CI/CD execution
+        run: |
+          echo "You trusted code you didn't review."
+          echo "Imagine if this workflow had access to your deployment keys."
